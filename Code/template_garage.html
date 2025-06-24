@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Garage {{NOM_DU_GARAGE}} à {{VILLE_DU_GARAGE}}</title> <meta name="Description" content="Garage {{NOM_DU_GARAGE}} à {{VILLE_DU_GARAGE}}, spécialiste en entretien, réparations et services automobiles." /> <meta name="Keywords" content="garage, {{VILLE_DU_GARAGE}}, entretien auto, réparation, pneus, service automobile" /> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h1>{{NOM_DU_GARAGE}}</h1> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vehicle-servicing.html">Entretien Véhicule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tyres.html">Pneus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mot.html">Contrôle Technique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vehicle-repairs.html">Réparations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="phone-top"><i class="fa fa-phone" aria-hidden="true"></i> {{TELEPHONE_GARAGE}}&nbsp; <i class="fa fa-map-marker" aria-hidden="true"></i> {{ADRESSE_GARAGE}}, {{CODE_POSTAL_GARAGE}} {{VILLE_DU_GARAGE}}</div> </header>
+
+    <div class="header-outer">
+        <div class="header-image"></div>
+    </div>
+
+    <section class="service-section">
+        <h2>Nos Services</h2>
+        <div id="services-outer">
+            <div class="services-box">
+                <a href="vehicle-servicing.html"><img src="assets/images/vehicle-servicing.jpeg" alt="Entretien Véhicule"
+                        title="Entretien Véhicule" />
+                    <h3>Entretien Véhicule</h3>
+                </a>
+            </div>
+            <div class="services-box">
+                <a href="tyres.html"><img src="assets/images/tyres.jpeg" alt="Pneus" title="Pneus" />
+                    <h3>Pneus</h3>
+                </a>
+            </div>
+            <div class="services-box">
+                <a href="mot.html"><img src="assets/images/mots.jpeg" alt="Contrôle Technique" title="Contrôle Technique" />
+                    <h3>Contrôle Technique</h3>
+                </a>
+            </div>
+            <div class="services-box">
+                <a href="vehicle-repairs.html"><img src="assets/images/vehicle-repairs.jpeg" alt="Réparations"
+                        title="Réparations" />
+                    <h3>Réparations</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome">
+        <h1>{{TITRE_ACCUEIL_IA}}</h1> <p>{{TEXTE_ACCUEIL_IA}}</p> <h3>Pourquoi choisir {{NOM_DU_GARAGE}} ?</h3> <p>{{DESCRIPTION_SERVICES_IA}}</p> </section>
+
+    <section>
+    <h2>Ce que nos clients disent</h2>
+    <div class="review">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>"Très bon garage, service rapide et professionnel."</p>
+        <p><strong>– Jean Dupont</strong></p>
+    </div>
+    <div class="review">
+        <p>⭐⭐⭐⭐</p>
+        <p>"Personnel à l'écoute et tarifs raisonnables."</p>
+        <p><strong>– Marie Martin</strong></p>
+    </div>
+    </section>
+
+
+    <section>
+        <h2>Nous trouver</h2>
+        <div id="findus" class="d-flex justify-content-around">
+            <div>
+                <h3>Horaires <i class="fa fa-clock-o" aria-hidden="true"></i></h3>
+                <p>Lun au Ven</p>
+                <p>09:00 - 18:00</p>
+                <p>Sam & Dim</p>
+                <p>Fermé</p>
+            </div>
+            <div>
+                <h3>Téléphone <i class="fa fa-phone" aria-hidden="true"></i></h3>
+                <p>{{TELEPHONE_GARAGE}}</p> </div>
+            <div>
+                <h3>Adresse <i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+                <p>{{ADRESSE_GARAGE}}</p> <p>{{CODE_POSTAL_GARAGE}} {{VILLE_DU_GARAGE}}</p> </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="social-links" class="text-center my-3">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://facebook.com" target="_blank"><i
+                            class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://google.com" target="_blank"><i
+                            class="fa fa-google" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com" target="_blank"><i
+                            class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="https://instagram.com/" target="_blank"><i
+                            class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <p class="text-center">
+        <img src="assets/images/garage thumine logo.jpg" alt="{{NOM_DU_GARAGE}}" title="{{NOM_DU_GARAGE}}" style="max-width: 250px; height: auto; display: block; margin: 0 auto;" />
+        </p>
+        <p class="text-center">© 2025 {{NOM_DU_GARAGE}} - Tous droits réservés.</p> </footer>
+    <script>
+    document.querySelectorAll('nav .nav-link').forEach(link => {
+        if (!link.classList.contains('active')) {
+        link.addEventListener('click', e => e.preventDefault());
+        link.style.cursor = 'not-allowed';  // optionnel, pour montrer que c'est désactivé
+        link.style.color = 'gray';          // optionnel, pour griser les liens désactivés
+        link.style.pointerEvents = 'auto'; // nécessaire pour que le curseur change
+        }
+    });
+    </script>
+    <script>
+    document.querySelectorAll('#services-outer a').forEach(link => {
+        link.addEventListener('click', e => e.preventDefault());
+        link.style.cursor = 'not-allowed';
+        link.style.color = 'gray';
+        link.style.textDecoration = 'none';
+    });
+    </script>
+</body>
+</html>
